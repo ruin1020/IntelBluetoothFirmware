@@ -150,7 +150,7 @@ IOReturn CIntelBTPatcher::newFindQueueRequest(void *that, unsigned short arg1, v
 
 StandardUSB::DeviceRequest randomAddressRequest;
 // Hardcoded Random Address HCI Command
-const uint8_t randomAddressHci[9] = {0x05, 0x20, 0x06, 0x94, 0x50, 0x64, 0xD0, 0x78, 0x6B}; 
+const uint8_t randomAddressHci[9] = {0x05, 0x20, 0x06, 0x94, 0x50, 0x64, 0xD0, 0x78, 0x6B};
 IOBufferMemoryDescriptor *writeHCIDescriptor = nullptr;
 
 #define MAX_HCI_BUF_LEN             255

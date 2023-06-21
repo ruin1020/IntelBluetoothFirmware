@@ -35,7 +35,7 @@ typedef struct __attribute__((packed))
     uint8_t     len;
 } HciEventHdr;
 
-typedef struct __attribute__((packed)) 
+typedef struct __attribute__((packed))
 {
     HciEventHdr evt;
     uint8_t     numCommands;
